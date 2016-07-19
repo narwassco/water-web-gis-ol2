@@ -328,7 +328,7 @@
 {"method":"setFontAndSize","fontname":"","fontencoding":"","fontsize":"8"},
 {"method":"beginText"},
 {"method":"moveText","x":"130","y":"10"},
-{"method":"showText","text":"(C) 2014 Narok Water and Sewerage Services Co.,Ltd"},
+{"method":"showText","text":"(C) 2016 Kapsabet Nandi Water and Sanitation Co.,Ltd"},
 {"method":"endText"},
 {"method":"stroke"},
 {"method":"setLineWidth","linewidth":"0.5"},

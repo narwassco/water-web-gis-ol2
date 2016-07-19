@@ -287,8 +287,7 @@ public class BillingSync {
 			sql.append(" current_date,");
 			sql.append(" current_date,");
 			sql.append(" status, ");
-			sql.append(" sno, ");
-			sql.append(" met_no ");
+			sql.append(" sno ");
 			sql.append(" FROM billing_bkup ");
 			sql.append(" WHERE yearmonth = ?");
 			PreparedStatement pstmt = conn.prepareStatement(sql.toString());

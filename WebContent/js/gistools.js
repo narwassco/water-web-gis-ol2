@@ -36,23 +36,25 @@ this.gistools ={
 		setTools : function(){
 			var objlayer = new gis.ui.layer({
 				map : this.map,
-				defineurl : './js/lib/gis/settings/define.json',
+				defineurl : './define.json',
 				mapservurl : this.settingObj.getMapServUrl()
-			}).init();
-			var mapmenu = new gis.ui.menu.dropdown({
+			})
+			var mapmenu = new gis.ui.mapmenu({
 				divid : 'dropdown_container',
-				defineurl : './js/lib/gis/settings/dropdownmenu.json',
 				map : this.map
-			}).init();
-			var btnmenu = new gis.ui.menu.button({
+			});
+			var btnmenu = new gis.ui.buttonmenu({
 				divid : 'btnmenu_container',
-				defineurl : './js/lib/gis/settings/buttonmenu.json',
 				map : this.map
-			}).init();;
+			});
 			var statusbar = new gis.ui.statusbar({
 				divid : 'statusbar_container',
 				map : this.map
-			}).init();;
+			});
+			var tools = [objlayer,mapmenu,btnmenu,statusbar];
+			for (var i = 0 in tools){
+				tools[i].init();
+			}
 		},
 
 		resizeContainer:function(){

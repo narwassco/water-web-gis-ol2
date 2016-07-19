@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Satellite Imagery Map",
+    "type": "WMS",
+    "file": "../htdocs/kapsabet/kapsabet.map",
+    "layers": "kisumu_landsat8,kapsabet_landsat8,Naroktown_Landsat8,airbus_1,airbus_2,airbus_3,airbus_4,airbus_5",
+    "isBaseLayer": true
+  },
+  {
+    "name": "Intake / WTP / Tank",
+    "type": "WMS",
+    "file": "../htdocs/kapsabet/kapsabet.map",
+    "layers": "Intake,WTP,Tank"
+  },
+  {
+    "name": "Pipeline",
+    "type": "WMS",
+    "file": "../htdocs/kapsabet/kapsabet.map",
+    "layers": "Pipeline,Valve,Washout,Firehydrant"
+  },
+  {
+    "name": "Customer Meters",
+    "type": "WMS",
+    "file": "../htdocs/kapsabet/kapsabet.map",
+    "layers": "Meter"
+  }
+]

@@ -52,7 +52,7 @@ public class Customers {
 			sql.append("  c.name as Name,  ");
 			sql.append("  c.status as Status,  ");
 			sql.append("  ST_AsText(ST_Transform(m.geom,4326)) as WKT, ");
-			sql.append("  c.serialno as SerialNo  ");
+			sql.append("  m.serialno as SerialNo  ");
 			sql.append("FROM  customer c ");
 			sql.append("LEFT JOIN village v ");
 			sql.append("ON c.villageid = v.villageid ");
