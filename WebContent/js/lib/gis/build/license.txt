@@ -1,0 +1,9 @@
+/*
+
+  gis.js -- Map Editor Library
+
+  Copyright (c) 2015 by Jin Igarashi(Narok Water and Sewerage Services Company)
+
+  this tool use OpenLayers, jquery and jquery-ui.
+
+*/

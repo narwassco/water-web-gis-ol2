@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+
+div.olControlAttribution {
+	padding: 3px;
+	color: #000000;
+	background-color: #ffffff;
+	background-color: rgba(230, 255, 255, 0.7);
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 5px;
+	vertical-align: middle;
+}
+
+.gis-ui-buttonmenu {
+	width: 80px;
+	height: 40px;
+}
+
+ul.gis-ui-mapmenu {
+	width: 100%;
+	/* margin-top:5px; */
+	padding-left: 0;
+	margin-left: 0;
+}
+
+li.gis-ui-control-menu {
+	list-style: none;
+	padding: 1px 2px;
+	font-size: 12px;
+	/* width:80px;
+    float:left; */
+	border-width: 2px;
+	border-color: #FFEEDB;
+	border-style: ridge;
+	background-color: #e0ffff;
+}
+
+.gis-ui-control-button {
+	width: 100%;
+	font-size: 12px;
+}
+
+/* gis.ui.control.snappingToggleのtype(number)タグのスタイル */
+.gis-ui-control-snapping-txtnumber {
+	width: 80px;
+}
+
+/* gis.ui.control.imageToggleのimgタグのスタイル */
+.gis-ui-control-image-img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30%;
+	z-index: 9999;
+	border: 1px solid #000;
+}
+
+/* gis.ui.control.imageToggleのliタグの中のコントロールのスタイル */
+.gis-ui-control-image-li {
+	width: 90%;
+}
+
+/* gis.ui.control.viewWktToggleのliタグの中のコントロールのスタイル */
+.gis-ui-control-viewWkt-li {
+	width: 90%;
+}
+
+/* gis.ui.control.mousePositionToggleのlabelタグの中のコントロールのスタイル */
+.gis-ui-control-mouseposition-label {
+	white-space: nowrap;
+}
+
+/* gis.ui.control.mousePositionToggleのtype(text)タグの中のコントロールのスタイル */
+.gis-ui-control-mouseposition-txt {
+	width: 130px;
+}
+
+/* gis.ui.control.viewScaleToggleのlabelタグの中のコントロールのスタイル */
+.gis-ui-control-viewscale-label {
+	white-space: nowrap;
+}
+
+/* gis.ui.control.viewScaleToggleのtype(text)タグの中のコントロールのスタイル */
+.gis-ui-control-viewscale-txt {
+	width: 130px;
+}
+
+/* gis.ui.control.selectFeatureToggleのポップアップのスタイル */
+.gis-ui-control-selectfeature-popup {
+	width: 200px;
+}
+
+/* gis.ui.control.saveButtonのコンボボックスのスタイル */
+.gis-ui-control-save-combobox {
+	width: 90%;
+}
+
+div.gis-ui-tableview {
+
+}
+
+div.gis-ui-tableview-option {
+	border-top: 2px #000000 solid;
+}
+
+.gis-ui-tableview-option-table {
+	border: 1px #000000 solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.gis-ui-tableview-option-table th {
+	border: 1px #000000 solid;
+	background-color: #F0FFFF;
+	margin: 0px;
+	padding: 0px;
+	width: 70px;
+}
+
+.gis-ui-tableview-option-table td {
+	border: 1px #000000 solid;
+	margin: 0px;
+	padding: 0px;
+}
